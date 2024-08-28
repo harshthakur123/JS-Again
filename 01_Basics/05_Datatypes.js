@@ -53,3 +53,26 @@ Function 	"function"
 Any other object	"object"
 
 */
+
+// ----------------------------------------------------------------
+
+//Stack(Primitive) , Heap(Non - Primitive)
+
+let name1 = "Harsh"
+let name2 = name1 
+name2 = "AKASH"
+
+console.log(name2);
+console.log(name1);
+
+let user1 = {
+    name : "Harsh",
+    email : "hkt@gmail.com"
+
+}
+
+let user2 = user1
+console.log(user1);
+user2.name="PK"
+console.log(user1);
+
