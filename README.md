@@ -1,2 +1,0 @@
-# JS-Again
-Javascript journey
