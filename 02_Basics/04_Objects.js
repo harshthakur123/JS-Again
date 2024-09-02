@@ -45,11 +45,28 @@ const user3 = [
     }
 ]
 
-console.log(user3[1].email);
-console.log(user1);
-console.log(Object.keys(user1));
-console.log(Object.values(user1));
-console.log(Object.entries(user1));
-console.log(user1.hasOwnProperty('isLoggedIn'));
+// console.log(user3[1].email);
+// console.log(user1);
+// console.log(Object.keys(user1));
+// console.log(Object.values(user1));
+// console.log(Object.entries(user1));
+// console.log(user1.hasOwnProperty('isLoggedIn'));
 
 
+const course = {
+    name : "JS",
+    price : "999",
+    instructor : "Harsh"
+}
+
+// console.log(course.instructor);
+
+
+const {instructor} = course
+console.log(instructor);
+
+//  {
+//     name : "Harsh",
+//     coursename : "JS",
+//     price : "free"
+//  }
