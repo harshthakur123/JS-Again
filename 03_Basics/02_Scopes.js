@@ -67,7 +67,7 @@ addOne(5)
 
 
 // addTwo(5) // if you declare function and store it in a variable, then you
-// cannot access it before inilialization
+// cannot access it before inilialization 
 const addTwo = function(num){
     return num+2
 }
