@@ -37,7 +37,7 @@ buttons.forEach((button)=>{
 
 ## Project 2
 
-```javascipt
+```javascript
 const form = document.querySelector('form')
 
 //this gives you empty value, we have to fetch value after submit
