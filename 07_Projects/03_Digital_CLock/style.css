@@ -1,0 +1,110 @@
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2c3e50; /* Dark background */
+    color: #ecf0f1; /* Light text color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Navbar styling */
+  nav {
+    width: 100%;
+    background-color: #34495e; /* Darker navbar */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    position: fixed; /* Make the nav fixed at the top */
+    top: 0; /* Position at the top */
+    left: 0;
+    z-index: 1000; /* Ensure it's on top of other content */
+  }
+  
+  nav a {
+    color: #ecf0f1; /* Light text */
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.3s ease;
+  }
+  
+  nav a i {
+    margin-right: 8px;
+  }
+  
+  nav a:hover {
+    color: #f39c12; /* Orange hover effect */
+  }
+  
+  /* Icon colors */
+  .home-icon {
+    color: #1abc9c; /* Turquoise */
+  }
+  
+  .youtube-icon {
+    color: #e74c3c; /* Red */
+  }
+  
+  /* Center container for the clock */
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #34495e;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Banner styling */
+  #banner {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f39c12; /* Orange */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Digital clock styling */
+  #clock {
+    font-size: 5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #ecf0f1;
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    #banner {
+      font-size: 1.8rem;
+    }
+  
+    #clock {
+      font-size: 3.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #banner {
+      font-size: 1.5rem;
+    }
+  
+    #clock {
+      font-size: 3rem;
+    }
+  
+    nav a {
+      font-size: 16px;
+      margin: 0 10px;
+    }
+  }
+  
