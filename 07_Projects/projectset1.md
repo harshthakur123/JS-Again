@@ -5,7 +5,7 @@
 
 # Solution Code
 
-## Project 1
+## Project 1 Solution
 
 ```javascript
 const buttons = document.querySelectorAll(".button")
@@ -35,7 +35,7 @@ buttons.forEach((button)=>{
 })
 ```
 
-## Project 2
+## Project 2 Solution
 
 ```javascript
 const form = document.querySelector('form')
@@ -99,8 +99,8 @@ form.addEventListener('submit',(e)=>{
 
 ```
 
-## Project 3
-```Javascript
+## Project 3 Solution
+```Javascript 
 const clock = document.getElementById('clock')
 
 // const clock = document.querySelector('#clock')
