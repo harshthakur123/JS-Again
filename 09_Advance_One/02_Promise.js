@@ -8,7 +8,7 @@
 //     },1000)
 // })
 
-
+                         
 // promiseOne.then(function(){
 //     console.log("Promise consumed !!!");
     
